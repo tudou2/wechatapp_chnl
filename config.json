@@ -35,5 +35,5 @@
     "wechatcomapp_agent_id": "1000002",
     "wechatcomapp_aes_key": "KlB6KS2NPMfGupPYdYBjoywXqtCex93WW6RYNFC4gXB",
      "channel_type": "wechatcom_app", 
-    "subscribe_msg": "hi",
+    "subscribe_msg": "hi"
 }

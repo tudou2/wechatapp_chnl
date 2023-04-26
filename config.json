@@ -27,5 +27,13 @@
   "voice_reply_voice": false,
   "conversation_max_tokens": 1000,
   "expires_in_seconds": 3600,
-  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。"
+  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
+    "wechatcom_corp_id": "ww232360b27bc81269", 
+    "wechatcomapp_token": "Bao338ysRy", 
+    "wechatcomapp_port": 9898,
+    "wechatcomapp_secret": "lq2kVmy-9St9DnsyO8XAeM1VdFz-JpT3YZNP-4JazPs",
+    "wechatcomapp_agent_id": "1000002",
+    "wechatcomapp_aes_key": "KlB6KS2NPMfGupPYdYBjoywXqtCex93WW6RYNFC4gXB",
+     "channel_type": "wechatcom_app", 
+    "subscribe_msg": "hi",
 }

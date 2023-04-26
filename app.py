@@ -8,6 +8,7 @@ from channel import channel_factory
 from common.log import logger
 from config import conf, load_config
 from plugins import *
+import requests
 
 
 def sigterm_handler_wrap(_signo):
@@ -45,7 +46,11 @@ def run():
         channel = channel_factory.create_channel(channel_name)
         if channel_name in ["wx", "wxy", "terminal", "wechatmp", "wechatmp_service", "wechatcom_app"]:
             PluginManager().load_plugins()
-
+            
+        response = requests.get('https://api.ipify.org?format=json')
+        ip = response.json()['ip']
+        print("ip++++:"+ip)
+        
         # startup channel
         channel.startup()
     except Exception as e:
